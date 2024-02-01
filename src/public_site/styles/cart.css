@@ -1,0 +1,26 @@
+.cart {
+  width: 80%;
+  margin: 75px auto 235px auto;
+}
+.cart h1 {
+  text-align: left;
+  margin-bottom: 50px;
+}
+.cart p {
+  margin: 5px 0;
+}
+.cart .btn {
+  position: relative;
+  padding: 20px 20px 20px 40px;
+  margin: 100px 0 0 0;
+}
+.fa-arrows-left {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url("./../media/icons/angles-left-solid.svg") no-repeat center;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}

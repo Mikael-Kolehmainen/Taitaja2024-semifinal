@@ -1,0 +1,49 @@
+header {
+  background-color: white;
+  display: flex;
+}
+header img {
+  width: 200px;
+}
+header a {
+  margin-left: 10%;
+}
+header .link {
+  height: fit-content;
+  width: fit-content;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin: auto auto auto 30px;
+  display: block;
+  color: var(--main-color);
+}
+header .icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 0;
+  background-color: transparent;
+  margin: auto 20px;
+}
+header .icon i {
+  width: 100%;
+  height: 100%;
+}
+header nav {
+  display: flex;
+  margin: 0 10% 0 auto;
+}
+header .btn.with-icon {
+  position: relative;
+  padding-right: 45px;
+}
+header .fa-arrows {
+  background: url("./../media/icons/angles-right-solid.svg") no-repeat center;
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 82.5%;
+  transform: translate(-50%, -50%);
+}

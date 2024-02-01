@@ -1,0 +1,46 @@
+@media (max-width: 550px) {
+  header a {
+    margin: 0;
+  }
+  header nav {
+    margin: 0 3% 0 auto;
+  }
+  .hero h1 {
+    width: 80%;
+  }
+  .home {
+    width: 95%;
+  }
+  section .items .item {
+    width: 100%;
+    display: flex;
+    text-align: left;
+  }
+  section .items .item p {
+    width: 100%;
+  }
+  section .items .item .content {
+    width: 75%;
+    margin-left: 20px;
+  }
+  footer {
+    padding: 25px 0;
+  }
+  .shop {
+    width: 95%;
+  }
+  .shop .products .product {
+    width: 94%;
+    padding: 20px 3%;
+  }
+  .shop .search-bar {
+    width: 90%;
+  }
+  .shop .desktop {
+    display: block;
+    /* display: none; */
+  }
+  .shop .mobile {
+    display: block;
+  }
+}

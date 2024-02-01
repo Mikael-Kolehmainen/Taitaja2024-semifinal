@@ -1,0 +1,31 @@
+.home {
+  margin: 50px auto;
+  width: 75%;
+}
+.home h1 {
+  margin-bottom: 30px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.items .item {
+  width: 29%;
+  text-align: center;
+  margin-top: 20px;
+  margin: 20px 2%;
+}
+.items .item h2 {
+  margin: 20px 0;
+}
+.items .item p {
+  width: 70%;
+  margin: auto;
+  line-height: 1.5;
+}
+.items .item .icon {
+  margin: auto;
+}

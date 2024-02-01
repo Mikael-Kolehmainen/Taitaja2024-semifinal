@@ -1,0 +1,115 @@
+.shop {
+  width: 80%;
+  margin: 50px auto;
+}
+.shop label {
+  color: var(--main-color);
+}
+.shop h1 {
+  text-align: left;
+  margin-bottom: 40px;
+}
+.filters {
+  display: flex;
+  gap: 20px;
+}
+.shop .search-bar {
+  display: flex;
+  border: 1px solid var(--main-color);
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 100vmax;
+  margin-bottom: 40px;
+}
+.shop .search-bar input {
+  border: none;
+  font-size: 18px;
+  margin-left: 15px;
+  width: 325px;
+}
+.shop .search-bar input:active,
+.shop .search-bar input:focus {
+  border: none;
+  outline: none;
+}
+.shop .search-bar .icon {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+.shop .search-bar .icon i {
+  width: 100%;
+  height: 100%;
+}
+.shop .filter input {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.shop .filter label {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.shop .filters {
+  margin: 20px 0;
+}
+.shop .products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shop .products .product {
+  width: 29%;
+  margin: 10px 1%;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  padding: 15px 1%;
+  min-height: 200px;
+  position: relative;
+}
+.shop .products .product h3 {
+  color: var(--main-color);
+  font-size: 22px;
+}
+.shop .products .product h4 {
+  font-style: italic;
+  margin: 10px 0 30px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+.shop .products .product .btn {
+  color: var(--misc-color);
+}
+.shop .products .product .price p {
+  font-size: 26px;
+  font-weight: bold;
+}
+.shop .products .product .bottom {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  width: 94%;
+}
+.shop .products .product .bottom .btn {
+  margin: 0 0 0 auto;
+}
+.shop .amount {
+  text-align: right;
+  margin: 25px 0;
+}
+.shop .mobile {
+  display: none;
+}
+.shop .mobile p {
+  font-size: 24px;
+}
+.shop .mobile i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background: url("./../media/icons/angles-right-solid.svg") no-repeat center;
+}
+.shop .mobile i.fa-back-arrows {
+  background: url("./../media/icons/angles-left-solid.svg") no-repeat center;
+}

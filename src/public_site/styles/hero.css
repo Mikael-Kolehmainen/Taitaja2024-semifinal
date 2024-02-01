@@ -1,0 +1,23 @@
+.hero {
+  background-image: url(./../media/hero.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  height: 450px;
+  padding-top: 150px;
+}
+.hero h1 {
+  font-size: 50px;
+  color: var(--main-color);
+  width: 40%;
+  margin: auto;
+}
+.hero p {
+  color: var(--main-color);
+  margin-top: 20px;
+}
+.hero .cta {
+  margin-top: 50px;
+}

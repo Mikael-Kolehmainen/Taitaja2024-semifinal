@@ -1,0 +1,41 @@
+.icon {
+  background-color: var(--secondary-color);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: relative;
+}
+.icon i {
+  display: block;
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--secondary-font-color);
+}
+.icon i.fa-pen {
+  background: url("./../media/icons/pen-solid.svg") no-repeat center;
+}
+.icon i.fa-magnifying {
+  background: url("./../media/icons/magnifying-glass-solid.svg") no-repeat center;
+}
+.icon i.fa-plus {
+  background: url("./../media/icons/circle-plus-solid.svg") no-repeat center;
+}
+.icon i.fa-smile {
+  background: url("./../media/icons/face-smile-regular.svg") no-repeat center;
+}
+.icon i.fa-gift {
+  background: url("./../media/icons/gift-solid.svg") no-repeat center;
+}
+.icon i.fa-heart {
+  background: url("./../media/icons/heart-regular.svg") no-repeat center;
+}
+.icon i.fa-thumbs-up {
+  background: url("./../media/icons/thumbs-up-regular.svg") no-repeat center;
+}
+.icon i.fa-shopping-cart {
+  background: url("./../media/icons/cart-shopping-solid.svg") no-repeat center;
+}
