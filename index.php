@@ -13,19 +13,12 @@ session_start();
 error_reporting(E_ERROR | E_PARSE);
 
 /*
-  Preferably we want this file (index.php) to be on the root of the web server,
-  but that's not always possible so we need to change this variable based on how
-  many directories we're from the root.
-*/
-$directoriesFromRoot = 2;
-
-/*
   We need to fetch the baseUrl because we don't know if index.php is in the root
   of the web server, the baseUrl which will be appended to links
 */
-$baseUrl = ServerRequestManager::getBaseUrl($directoriesFromRoot);
+$baseUrl = ServerRequestManager::getBaseUrl();
 $uri = ServerRequestManager::getUriParts();
-$uri = array_splice($uri, $directoriesFromRoot);
+$uri = array_splice($uri, DIRECTORIES_FROM_ROOT);
 
 /*
   We want to have a clean file if we're doing an AJAX request from JavaScript

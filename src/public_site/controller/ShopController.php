@@ -11,7 +11,7 @@ class ShopController
 {
   public function showShopPage(): void
   {
-    $baseUrl = ServerRequestManager::getBaseUrl(2);
+    $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
         <script src='$baseUrl/src/public_site/js/shop-filtering.js' defer></script>

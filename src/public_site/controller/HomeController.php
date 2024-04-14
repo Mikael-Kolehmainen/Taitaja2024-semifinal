@@ -11,7 +11,7 @@ class HomeController
 {
   public function showHomePage(): void
   {
-    $baseUrl = ServerRequestManager::getBaseUrl(2);
+    $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
         <title>Tuottajamarket - Etusivu</title>

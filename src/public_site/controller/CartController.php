@@ -12,7 +12,7 @@ class CartController
 {
   public function showCartPage(): void
   {
-    $baseUrl = ServerRequestManager::getBaseUrl(2);
+    $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
         <title>Tuottajamarket - Ostoskori</title>

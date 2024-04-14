@@ -10,7 +10,7 @@ class HeaderController
 {
   public function showHeader(): void
   {
-    $baseUrl = ServerRequestManager::getBaseUrl(2);
+    $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
       <header>
@@ -24,7 +24,7 @@ class HeaderController
 
   public function showShopHeader(): void
   {
-    $baseUrl = ServerRequestManager::getBaseUrl(2);
+    $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
       <header>

@@ -24,10 +24,10 @@ class ServerRequestManager
     return $_SERVER[self::REQUEST_METHOD] == self::GET;
   }
 
-  public static function getBaseUrl($directoriesFromRoot): string
+  public static function getBaseUrl(): string
   {
     $uri = ServerRequestManager::getUriParts();
-    if ($directoriesFromRoot > 0) {
+    if (DIRECTORIES_FROM_ROOT > 0) {
       return $uri[0] . "/" . $uri[1] . "/" . $uri[2];
     }
     return "";
