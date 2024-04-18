@@ -43,6 +43,7 @@ if ($uri[2] != "ajax") {
         <link href='$baseUrl/src/public_site/styles/shop.css' rel='stylesheet' type='text/css'>
         <link href='$baseUrl/src/public_site/styles/cart.css' rel='stylesheet' type='text/css'>
         <link href='$baseUrl/src/public_site/styles/media-queries.css' rel='stylesheet' type='text/css'>
+        <script src='$baseUrl/src/public_site/js/utils.js' defer></script>
       ";
 }
 

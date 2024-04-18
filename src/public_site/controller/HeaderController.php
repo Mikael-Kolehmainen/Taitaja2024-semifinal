@@ -13,10 +13,11 @@ class HeaderController
     $baseUrl = ServerRequestManager::getBaseUrl();
 
     echo "
+      <script src='$baseUrl/src/public_site/js/session.js' defer></script>
       <header>
         <a href='$baseUrl/index.php'><img src='$baseUrl/src/public_site/media/alt_logo.png' alt='Tuottajamarket logo'></a>
         <nav>
-          <a class='btn with-icon' href='$baseUrl/index.php/shop'>Kauppaan <i class='fa-arrows'></i></a>
+          <a class='btn with-icon' href='$baseUrl/index.php/shop' id='store-link'>Kauppaan <i class='fa-arrows'></i></a>
         </nav>
       </header>
     ";
